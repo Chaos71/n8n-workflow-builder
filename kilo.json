@@ -1,0 +1,11 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "n8n-workflow-builder": {
+      "type": "local",
+      "command": ["node", "build/server.cjs"],
+      "cwd": "C:\\WorkPlace\\n8n-workflow-builder",
+      "enabled": true
+    }
+  }
+}

@@ -14,10 +14,10 @@
   "scripts": {
     "clean": "rm -rf build build-smithery",
     "build": "tsc && npm run build:rename",
-    "build:rename": "find build -name '*.js' -exec sh -c 'mv \"$1\" \"${1%.js}.cjs\"' _ {} \\;",
+    "build:rename": "node -e \"const fs=require('fs');const path=require('path');fs.readdirSync('build').filter(f=>f.endsWith('.js')).forEach(f=>fs.renameSync(path.join('build',f),path.join('build',f.replace('.js','.cjs'))))\"",
     "build:smithery": "tsc -p tsconfig.smithery.json",
     "dev": "tsc -w",
-    "start": "node build/server.js",
+    "start": "node build/server.cjs",
     "prepare": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch",
