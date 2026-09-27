@@ -113,6 +113,9 @@ Thumbs.db
 # Project specific
 internal-readme.md
 
+# Локальные бэкапы workflow перед правками (создаётся скриптом фикса)
+workflows/backup/
+
 # SEO optimization temporary files
 GITHUB_TOPICS.md
 SEO_OPTIMIZATION_SUMMARY.md
