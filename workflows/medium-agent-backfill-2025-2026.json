@@ -1,0 +1,187 @@
+{
+  "name": "Medium Agent main v2 - Backfill 2025-2026",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "b1a00001-0001-4000-8000-000000000001",
+      "name": "When clicking 'Execute Workflow'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [-800, 0]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "getAll",
+        "returnAll": true,
+        "simple": true,
+        "filters": {
+          "q": "after:2024/12/31 before:2027/01/01"
+        },
+        "options": {}
+      },
+      "id": "b1a00002-0002-4000-8000-000000000002",
+      "name": "Get All Emails 2025-2026",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [-600, 0],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "synZZO5fich5aQuc",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "b1a00003-0003-4000-8000-000000000003",
+      "name": "Loop Over Items",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [-400, 0]
+    },
+    {
+      "parameters": {
+        "source": "database",
+        "mode": "once",
+        "workflowId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "ioZNo5bkS04OIiAL",
+          "cachedResultName": "Medium Agent main v2"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id": "={{ $json.id }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "id",
+              "displayName": "id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "type": "string"
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "id": "b1a00004-0004-4000-8000-000000000004",
+      "name": "Process Email (Medium Agent v2)",
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [-200, 0],
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "sendTo": "rev1_71@mail.ru",
+        "subject": "=Backfill 2025-2026 завершён: {{ $('Get All Emails 2025-2026').all().length }} писем",
+        "emailType": "text",
+        "message": "=Backfill-обработка почты завершена.\n\nПериод: 2025-01-01 - 2026-12-31 (Gmail-запрос: after:2024/12/31 before:2027/01/01)\nНайдено писем: {{ $('Get All Emails 2025-2026').all().length }}\n\nКаждое письмо обработано под-воркфлоу Medium Agent main v2. Ошибки отдельных писем не прерывают обработку - см. логи выполнения.\n\nExecution: {{ $execution.id }} | {{ $now.toISO() }}",
+        "options": {}
+      },
+      "id": "b1a00005-0005-4000-8000-000000000005",
+      "name": "Send Backfill Summary",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.2,
+      "position": [60, 160],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "synZZO5fich5aQuc",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Backfill перед запуском Medium Agent main v2\n\n**Назначение:** разовый прогон всех писем за 2025-2026 годы через основной воркфлоу *Medium Agent main v2* (как под-воркфлоу), чтобы заложить статьи из архивных дайджестов в локальное хранилище и векторную БД **до** промышленной эксплуатации.\n\n**Как работает:**\n1. Gmail Get Many messages собирает все письма за период `after:2024/12/31 before:2027/01/01`\n2. Loop Over Items (batch=1) обрабатывает их строго по одному\n3. Execute Sub-workflow вызывает *Medium Agent main v2* с входом `{id}` — тот же контракт, что у его триггера «When Executed by Another Workflow». Агент сам читает письмо, фильтрует по доменам (medium.com, reddit.com, redditmail.com, linkedin.com, habr.ru + личные адреса), извлекает ссылки и прогоняет статьи по конвейеру\n4. Ошибка одного письма не прерывает прогон (Continue on Fail)\n5. По завершении — сводное письмо на rev1_71@mail.ru\n\n**Важно:**\n- Запуск только вручную (Execute workflow), активировать воркфлоу не нужно\n- Прогон долгий: каждое письмо = отдельный вызов LLM-агента, следите за расходом токенов\n- Повторный запуск обработает письма заново. Чтобы пропустить уже обработанное, добавьте `is:unread` в Gmail-запрос\n- После успешного прогона можно активировать Medium Agent main v2",
+        "height": 560,
+        "width": 560
+      },
+      "id": "b1a00006-0006-4000-8000-000000000006",
+      "name": "Sticky Note",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [-820, -560]
+    },
+    {
+      "parameters": {
+        "content": "### Границы периода\n\n- 2025-01-01 → 2026-12-31 через Gmail-синтаксис `after:2024/12/31 before:2027/01/01`\n- Чтобы изменить период — правьте только поле Search (q) в этой ноде",
+        "height": 160,
+        "width": 380
+      },
+      "id": "b1a00007-0007-4000-8000-000000000007",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [-600, -240]
+    }
+  ],
+  "connections": {
+    "When clicking 'Execute Workflow'": {
+      "main": [
+        [
+          {
+            "node": "Get All Emails 2025-2026",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get All Emails 2025-2026": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop Over Items": {
+      "main": [
+        [
+          {
+            "node": "Process Email (Medium Agent v2)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Backfill Summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Email (Medium Agent v2)": {
+      "main": [
+        [
+          {
+            "node": "Loop Over Items",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

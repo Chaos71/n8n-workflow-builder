@@ -1,0 +1,10 @@
+{
+  "nodeUpdates": [
+    {
+      "node": "LLM",
+      "set": { "parameters.options.maxTokens": 8192 },
+      "remove": []
+    }
+  ],
+  "settings": {}
+}
