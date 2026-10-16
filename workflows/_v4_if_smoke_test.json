@@ -1,0 +1,150 @@
+{
+  "name": "_v4 If/BuildSkipResult smoke test",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "minutes",
+              "minutesInterval": 1
+            }
+          ]
+        }
+      },
+      "id": "f0000001-0000-4000-8000-000000000001",
+      "name": "Every Minute",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Два фикстурных письма: без статей (как в execution #1567) и со статьями.\nreturn [\n  { json: { output: { email_id: \"no-articles\", status: \"processed\", articles_found: 0, details: [], sender_domain: \"gmail.com\" } } },\n  { json: { output: { email_id: \"with-articles\", status: \"processed\", articles_found: 2, details: [{ title: \"a\" }, { title: \"b\" }], sender_domain: \"medium.com\" } } },\n];\n"
+      },
+      "id": "f0000001-0000-4000-8000-000000000002",
+      "name": "Fixture",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "506e894f-b91f-43e7-a821-d11bf1c35390",
+              "leftValue": "={{ $json.output.status }}",
+              "rightValue": "processed",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            },
+            {
+              "id": "c4a91f7e-2f5d-4b8a-9a13-7e6c0d5b2a41",
+              "leftValue": "={{ (($json.output || {}).details || []).length > 0 }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "f0000001-0000-4000-8000-000000000003",
+      "name": "If",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// v4: терминальный узел для писем, которые НЕ идут по конвейеру статей.\n// Сюда попадают оба случая (узел \"If\", combinator = and):\n//   1) status !== \"processed\"  — письмо отклонено фильтром домена/отправителя;\n//   2) status === \"processed\", но details пуст — интересных статей нет.\n//\n// ГЛАВНОЕ: узел возвращает РОВНО ОДИН item.\n// Раньше такая ветка заканчивалась пустым датасетом: \"Code in JavaScript\"\n// давал 0 items -> \"Loop Over Items\" не выполнялся -> под-workflow возвращал\n// вызывающему workflow 0 items -> родительский Loop Over Items замирал\n// (см. execution #1567 -> остановка Backfill-прогона #1563 на 4-м письме из 15).\nconst src = $input.first().json;\nconst out = src.output || src;\nconst details = Array.isArray(out.details) ? out.details : [];\nconst processedByAgent = out.status === \"processed\";\n\nreturn [\n  {\n    json: {\n      email_id: out.email_id || null,\n      status: out.status || \"unknown\",\n      sender_domain: out.sender_domain || null,\n      sender_email: out.sender_email || null,\n      articles_found: processedByAgent ? details.length : out.articles_found || 0,\n      action: processedByAgent ? \"skipped_no_articles\" : \"skipped_filtered\",\n      processed: false,\n      message: processedByAgent\n        ? 'Письмо обработано агентом, но интересных статей не найдено — конвейер пропущен.'\n        : 'Письмо отклонено фильтром (домен/отправитель не в разрешённом списке) — конвейер пропущен.',\n      execution_id: $execution.id,\n      timestamp: $now.toISO(),\n    },\n  },\n];\n"
+      },
+      "id": "f0000001-0000-4000-8000-000000000004",
+      "name": "Build Skip Result",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        -120
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "f0000001-0000-4000-8000-000000000005",
+      "name": "Articles Found (true branch)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        660,
+        120
+      ]
+    }
+  ],
+  "connections": {
+    "Every Minute": {
+      "main": [
+        [
+          {
+            "node": "Fixture",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fixture": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Articles Found (true branch)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Build Skip Result",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

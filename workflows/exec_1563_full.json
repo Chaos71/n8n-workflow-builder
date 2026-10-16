@@ -1,0 +1,2547 @@
+{
+  "id": "1563",
+  "finished": true,
+  "mode": "manual",
+  "retryOf": null,
+  "retrySuccessId": null,
+  "status": "success",
+  "createdAt": "2026-10-12T17:55:11.381Z",
+  "startedAt": "2026-10-12T17:55:11.447Z",
+  "stoppedAt": "2026-10-12T18:05:41.211Z",
+  "deletedAt": null,
+  "workflowId": "pIzb8xZ2NruJam5Y",
+  "waitTill": null,
+  "storedAt": "db",
+  "tracingContext": null,
+  "deduplicationKey": null,
+  "jsonSizeBytes": 38415,
+  "binaryDataSizeBytes": 0,
+  "workflowVersionId": "1b11f67d-c5b3-44ed-9f3f-e43195424981",
+  "usedPrivateCredentials": false,
+  "data": {
+    "version": 1,
+    "startData": {},
+    "resultData": {
+      "runData": {
+        "When clicking 'Execute Workflow'": [
+          {
+            "startTime": 1791827711585,
+            "executionIndex": 0,
+            "source": [],
+            "hints": [],
+            "executionTime": 2,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [
+                  {
+                    "json": {},
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "Get All Emails 2025-2026": [
+          {
+            "startTime": 1791827711587,
+            "executionIndex": 1,
+            "source": [
+              {
+                "previousNode": "When clicking 'Execute Workflow'",
+                "previousNodeOutput": 0,
+                "previousNodeRun": 0
+              }
+            ],
+            "hints": [],
+            "executionTime": 2485,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [
+                  {
+                    "json": {
+                      "id": "1a127311b9783e3b",
+                      "threadId": "1a127311b9783e3b",
+                      "snippet": "r/LocalLLaMA: **Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 90214,
+                      "historyId": "629776",
+                      "internalDate": "1791658891000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        }
+                      ],
+                      "From": "Reddit <noreply@redditmail.com>",
+                      "To": "chamlay71@gmail.com",
+                      "Subject": "\"No more RTX 5090\""
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a125c616a0cc7d1",
+                      "threadId": "1a125c616a0cc7d1",
+                      "snippet": "A System One model is a class of AI designed to make fast, structured decisions rather than generate open-ended text. AI Decision Makers powered by Local Ollama Rajesh Mani Kumar G Rajesh Mani Kumar G",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 20890,
+                      "historyId": "630483",
+                      "internalDate": "1791635100000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        }
+                      ],
+                      "From": "Rajesh Mani Kumar G <subscriptions@medium.com>",
+                      "Subject": "AI Decision Makers powered by Local Ollama",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a1245c72b3ddac2",
+                      "threadId": "1a1245c72b3ddac2",
+                      "snippet": "A dollar you have to take someone's word for Introducing stablecoins Tituslhy Tituslhy ∙ October 10, 2026 ∙ 14 min read ∙ View on Medium A dollar you have to take someone's word for",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 19325,
+                      "historyId": "630505",
+                      "internalDate": "1791611400000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        }
+                      ],
+                      "From": "Tituslhy <subscriptions@medium.com>",
+                      "Subject": "Introducing stablecoins",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a124480287d979d",
+                      "threadId": "1a124480287d979d",
+                      "snippet": "Контейнер n8n в Container Manager неожиданно завершил работу. Для получения дополнительных сведений выберите n8n на странице Контейнер, нажмите кнопку Сведения и перейдите на вкладку Журнал. Из",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 1124,
+                      "historyId": "628124",
+                      "internalDate": "1791610061000",
+                      "labels": [
+                        {
+                          "id": "SENT",
+                          "name": "SENT"
+                        }
+                      ],
+                      "From": "Synology220Plus - Synology NAS <chamlay71@gmail.com>",
+                      "To": "<rev1_71@mail.ru>",
+                      "Subject": "[192.168.1.75] Контейнер n8n в Container Manager неожиданно завершил работу"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a1243d51d30ac58",
+                      "threadId": "1a1243d51d30ac58",
+                      "snippet": "Вид с высоты или Коллекционная банка? ChatGPT Взгляните на свои фото по-новому Выберите идею ниже и посмотрите, что можно создать. Вид с высоты Попробуйте Коллекционная банка Попробуйте Фотобудка",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 76255,
+                      "historyId": "630318",
+                      "internalDate": "1791609359000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "From": "ChatGPT <noreply@email.openai.com>",
+                      "Subject": "Попробуйте новые стили изображений (4)",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a1242f6dd592468",
+                      "threadId": "1a1242f6dd592468",
+                      "snippet": "Контейнер n8n в Container Manager неожиданно завершил работу. Для получения дополнительных сведений выберите n8n на странице Контейнер, нажмите кнопку Сведения и перейдите на вкладку Журнал. Из",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 1127,
+                      "historyId": "628121",
+                      "internalDate": "1791608450000",
+                      "labels": [
+                        {
+                          "id": "SENT",
+                          "name": "SENT"
+                        }
+                      ],
+                      "From": "Synology220Plus - Synology NAS <chamlay71@gmail.com>",
+                      "To": "<rev1_71@mail.ru>",
+                      "Subject": "[192.168.1.75] Контейнер n8n в Container Manager неожиданно завершил работу"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a12400e6607719a",
+                      "threadId": "1a12400e6607719a",
+                      "snippet": "Eugene Stories for Eugene @chamlay71·Member Medium daily digest Today's highlights Rost Glukhov Rost GlukhovinPractical LLM Systems 12 Self-Hosted Deep Research Systems Compared 12 Self-Hosted Deep",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 94097,
+                      "historyId": "627751",
+                      "internalDate": "1791605400000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "From": "Medium Daily Digest <noreply@medium.com>",
+                      "Subject": "12 Self-Hosted Deep Research Systems Compared | Rost Glukhov in Practical LLM Systems",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a1236edb84fd889",
+                      "threadId": "1a1236edb84fd889",
+                      "snippet": "Jev, TypeSafe AI's decision model introduced in September 2026, has attracted considerable developer interest. What Exactly Is Jev, and Why Is It Suddenly Everywhere? Florian June Florian June in",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 21795,
+                      "historyId": "630317",
+                      "internalDate": "1791595800000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "From": "Florian June <subscriptions@medium.com>",
+                      "Subject": "What Exactly Is Jev, and Why Is It Suddenly Everywhere?",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a12211defba2975",
+                      "threadId": "1a12211defba2975",
+                      "snippet": "r/LocalLLaMA: **(Don't judge by the screenshot, the cache is cold. It hits 24+ tok/s with a warm cache!)** About two months ago, I made a post here asking whether predicting which MoE experts would",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 86570,
+                      "historyId": "630235",
+                      "internalDate": "1791572958000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_PROMOTIONS",
+                          "name": "CATEGORY_PROMOTIONS"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "From": "Reddit <noreply@redditmail.com>",
+                      "To": "chamlay71@gmail.com",
+                      "Subject": "\"Qwen 3.8 Flash Next-GSQ-RCO-IQ2_XS at ~21 tok/s on just an RTX 3060 12GB +...\""
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a12158e65da0e7d",
+                      "threadId": "1a12158e65da0e7d",
+                      "snippet": "Hi there, This week: a closer look at Kilo Desktop, Anaconda's approach to AI development, and a guide to Kilo Pass. Join us on Discord to compare notes, or tell us what you've been building.",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 21588,
+                      "historyId": "627749",
+                      "internalDate": "1791560836000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "Subject": "Kilo Weekly: Kilo Desktop + the AI Dev Factory",
+                      "From": "Kilo Team <hi@news.kilocode.ai>",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a120eba4f6bc137",
+                      "threadId": "1a120eba4f6bc137",
+                      "snippet": "Превратите селфи в профессиональный портрет студийного качества с помощью ChatGPT Images. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 68918,
+                      "historyId": "630316",
+                      "internalDate": "1791553675000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "From": "ChatGPT <noreply@email.openai.com>",
+                      "Subject": "Профессиональный портрет из простого селфи",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a1208ee0aa2ede6",
+                      "threadId": "1a1208ee0aa2ede6",
+                      "snippet": "Be a better communicator with LLM programming ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 111478,
+                      "historyId": "627747",
+                      "internalDate": "1791547315000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "Subject": "Why Claude Code Time Estimates Are Poor",
+                      "From": "Eivind Kjosbakken <eivindkjosbakken@substack.com>",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a1207b1b6a3fc5e",
+                      "threadId": "1a1207b1b6a3fc5e",
+                      "snippet": "OpenAI, Anthropic, and AWS price the agent loop at zero. Lock-in lives in tool schemas, sandbox format, and MCP wiring instead. Managed Agent Runtime Lock-In: Tool Schemas, Sandbox Format, and the Real",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 21657,
+                      "historyId": "627745",
+                      "internalDate": "1791546300000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "From": "Jaroslaw Wasowski <subscriptions@medium.com>",
+                      "Subject": "Managed Agent Runtime Lock-In: Tool Schemas, Sandbox Format, and the Real Eval Bill",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a1204e9b1b7c063",
+                      "threadId": "1a1204e9b1b7c063",
+                      "snippet": "r/LocalLLaMA: it consistently could not pass this. had to follow up couple of times and by the time it has already exhausted 120k context limit. \"build me a 3d simulation of the solar system in a",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 82579,
+                      "historyId": "627743",
+                      "internalDate": "1791543384000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        },
+                        {
+                          "id": "UNREAD",
+                          "name": "UNREAD"
+                        }
+                      ],
+                      "From": "Reddit <noreply@redditmail.com>",
+                      "To": "chamlay71@gmail.com",
+                      "Subject": "\"Qwen3.8: Flash Next iq3 xxs is dumber than 27B iq3 xxs?\""
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "id": "1a11eda8af52a767",
+                      "threadId": "1a11eda8af52a767",
+                      "snippet": "Eugene Stories for Eugene @chamlay71·Member Medium daily digest Today's highlights Anubhav AnubhavinData Science Collective I Replaced My $200/Month Claude Code with These Local Models. I Replaced",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 94794,
+                      "historyId": "626746",
+                      "internalDate": "1791519000000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        }
+                      ],
+                      "From": "Medium Daily Digest <noreply@medium.com>",
+                      "Subject": "I Replaced My $200/Month Claude Code with These Local Models. | Anubhav in Data Science Collective",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "Loop Over Items": [
+          {
+            "startTime": 1791827714073,
+            "executionIndex": 2,
+            "source": [
+              {
+                "previousNode": "Get All Emails 2025-2026",
+                "previousNodeOutput": 0,
+                "previousNodeRun": 0
+              }
+            ],
+            "hints": [],
+            "executionTime": 1,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [],
+                [
+                  {
+                    "json": {
+                      "id": "1a127311b9783e3b",
+                      "threadId": "1a127311b9783e3b",
+                      "snippet": "r/LocalLLaMA: **Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 90214,
+                      "historyId": "629776",
+                      "internalDate": "1791658891000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        }
+                      ],
+                      "From": "Reddit <noreply@redditmail.com>",
+                      "To": "chamlay71@gmail.com",
+                      "Subject": "\"No more RTX 5090\""
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "startTime": 1791828166316,
+            "executionIndex": 4,
+            "source": [
+              {
+                "previousNode": "Process Email (Medium Agent)",
+                "previousNodeOutput": 0,
+                "previousNodeRun": 0
+              }
+            ],
+            "hints": [],
+            "executionTime": 1,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [],
+                [
+                  {
+                    "json": {
+                      "id": "1a125c616a0cc7d1",
+                      "threadId": "1a125c616a0cc7d1",
+                      "snippet": "A System One model is a class of AI designed to make fast, structured decisions rather than generate open-ended text. AI Decision Makers powered by Local Ollama Rajesh Mani Kumar G Rajesh Mani Kumar G",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 20890,
+                      "historyId": "630483",
+                      "internalDate": "1791635100000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        }
+                      ],
+                      "From": "Rajesh Mani Kumar G <subscriptions@medium.com>",
+                      "Subject": "AI Decision Makers powered by Local Ollama",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 1,
+                      "sourceOverwrite": {
+                        "previousNode": "Get All Emails 2025-2026",
+                        "previousNodeOutput": 0,
+                        "previousNodeRun": 0
+                      }
+                    }
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "startTime": 1791828232022,
+            "executionIndex": 6,
+            "source": [
+              {
+                "previousNode": "Process Email (Medium Agent)",
+                "previousNodeOutput": 0,
+                "previousNodeRun": 1
+              }
+            ],
+            "hints": [],
+            "executionTime": 1,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [],
+                [
+                  {
+                    "json": {
+                      "id": "1a1245c72b3ddac2",
+                      "threadId": "1a1245c72b3ddac2",
+                      "snippet": "A dollar you have to take someone's word for Introducing stablecoins Tituslhy Tituslhy ∙ October 10, 2026 ∙ 14 min read ∙ View on Medium A dollar you have to take someone's word for",
+                      "payload": {
+                        "mimeType": "multipart/alternative"
+                      },
+                      "sizeEstimate": 19325,
+                      "historyId": "630505",
+                      "internalDate": "1791611400000",
+                      "labels": [
+                        {
+                          "id": "INBOX",
+                          "name": "INBOX"
+                        },
+                        {
+                          "id": "CATEGORY_UPDATES",
+                          "name": "CATEGORY_UPDATES"
+                        }
+                      ],
+                      "From": "Tituslhy <subscriptions@medium.com>",
+                      "Subject": "Introducing stablecoins",
+                      "To": "chamlay71@gmail.com"
+                    },
+                    "pairedItem": {
+                      "item": 2,
+                      "sourceOverwrite": {
+                        "previousNode": "Get All Emails 2025-2026",
+                        "previousNodeOutput": 0,
+                        "previousNodeRun": 0
+                      }
+                    }
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "startTime": 1791828336518,
+            "executionIndex": 8,
+            "source": [
+              {
+                "previousNode": "Process Email (Medium Agent)",
+                "previousNodeOutput": 0,
+                "previousNodeRun": 2
+              }
+            ],
+            "hints": [],
+            "executionTime": 1,
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [],
+                [
+                  {
+                    "json": {
+                      "id": "1a124480287d979d",
+                      "threadId": "1a124480287d979d",
+                      "snippet": "Контейнер n8n в Container Manager неожиданно завершил работу. Для получения дополнительных сведений выберите n8n на странице Контейнер, нажмите кнопку Сведения и перейдите на вкладку Журнал. Из",
+                      "payload": {
+                        "mimeType": "text/html"
+                      },
+                      "sizeEstimate": 1124,
+                      "historyId": "628124",
+                      "internalDate": "1791610061000",
+                      "labels": [
+                        {
+                          "id": "SENT",
+                          "name": "SENT"
+                        }
+                      ],
+                      "From": "Synology220Plus - Synology NAS <chamlay71@gmail.com>",
+                      "To": "<rev1_71@mail.ru>",
+                      "Subject": "[192.168.1.75] Контейнер n8n в Container Manager неожиданно завершил работу"
+                    },
+                    "pairedItem": {
+                      "item": 3,
+                      "sourceOverwrite": {
+                        "previousNode": "Get All Emails 2025-2026",
+                        "previousNodeOutput": 0,
+                        "previousNodeRun": 0
+                      }
+                    }
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "Process Email (Medium Agent)": [
+          {
+            "startTime": 1791827714074,
+            "executionIndex": 3,
+            "source": [
+              {
+                "previousNode": "Loop Over Items",
+                "previousNodeOutput": 1,
+                "previousNodeRun": 0
+              }
+            ],
+            "hints": [],
+            "executionTime": 452236,
+            "metadata": {
+              "subExecution": {
+                "executionId": "1564",
+                "workflowId": "xIgVHwzm89TyQEzV"
+              },
+              "subExecutionsCount": 1
+            },
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-0",
+                      "document_id": "a178ca6a5468a102",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "No more RTX 5090",
+                      "author": "u/Hot_Arachnid3547",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2hs1e/no_more_rtx_5090/",
+                      "language": "en",
+                      "processed_date": "2026-10-10 12:01",
+                      "service_id": "reddit",
+                      "markdown_chars": 27388,
+                      "relevance": 1,
+                      "practicality": 0,
+                      "technical_depth": 0,
+                      "reproducibility": 0,
+                      "originality": 0,
+                      "tags": [
+                        "Nvidia",
+                        "RTX 5090",
+                        "AI-hardware",
+                        "local-LLM"
+                      ],
+                      "summary_ru": "Статья представляет собой новостной пост с комментариями о прекращении производства видеокарты RTX 5090 в пользу AI-серверов. Обсуждение фокусируется на рыночных ценах, дефиците, сравнении с предыдущими поколениями и философских размышлениях о бизнес-модели Nvidia. В тексте нет пошаговых инструкций, кода, конфигураций или технических деталей настройки локальных LLM.",
+                      "has_code": false,
+                      "programm_language": [],
+                      "has_discussion": true,
+                      "score": 1,
+                      "status": "skipped_low_score",
+                      "action_taken": "skipped",
+                      "error_details": null,
+                      "accepted": false
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-1",
+                      "document_id": "0a554da05d481c90",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Benchmarked some Strata Qwen3.8-flash-next quants",
+                      "author": "u/Orys_Blackfire",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/LocalLLM/comments/1x1pvkt/benchmarked_some_strata_qwen38flashnext_quants/",
+                      "language": "en",
+                      "processed_date": "2026-10-10 12:01",
+                      "service_id": "reddit",
+                      "markdown_chars": 18828,
+                      "relevance": 2,
+                      "practicality": 2,
+                      "technical_depth": 1,
+                      "reproducibility": 1,
+                      "originality": 2,
+                      "tags": [
+                        "RAG",
+                        "локальные-LLM",
+                        "MCP",
+                        "n8n",
+                        "AI-агенты",
+                        "квантование"
+                      ],
+                      "summary_ru": "Автор провел бенчмарк квантованных версий модели Qwen3.8-Flash-Next (IQ3_XXS, IQ3_S, Coder, Swift, Tiel Coder) на своем локальном стенде (7900XT 20GB VRAM). Использовал набор задач из Polyglot Aider и собственные агентские сценарии через harness pi agent. В комментариях обсуждаются детали квантования, скорости декодирования на разных GPU (3090, 4090), влияние контекстного окна и сравнение с другими форматами (EXL3, Q4_K_XL).",
+                      "has_code": false,
+                      "programm_language": [],
+                      "has_discussion": true,
+                      "score": 8,
+                      "status": "successfully_processed",
+                      "action_taken": "original_saved",
+                      "error_details": null,
+                      "accepted": true,
+                      "translation_status": "translation_failed",
+                      "ru_path": null,
+                      "chars_translated": 0,
+                      "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                      "index_request_status": "queued",
+                      "job_id": 174,
+                      "has_job": true,
+                      "index_error": null,
+                      "poll_deadline": 1791829608952,
+                      "job_status": "completed",
+                      "index_result": {
+                        "status": "indexed",
+                        "versions": {
+                          "ru": {
+                            "chunks": 27,
+                            "status": "indexed",
+                            "tokens": 8741,
+                            "article_id": 124,
+                            "content_hash": "688370cef7ce99c27fdac17cbf91a1ee418bcb4bd2b534570c8539e85a58c708"
+                          },
+                          "original": {
+                            "chunks": 0,
+                            "status": "skipped",
+                            "tokens": 0,
+                            "content_hash": "63d5f5244b66bb64f16598f6503ca81a992a3b56b5393cc2f801c3bff8816ec7"
+                          }
+                        },
+                        "warnings": [],
+                        "document_id": "0a554da05d481c90",
+                        "duration_ms": 27844
+                      },
+                      "index_duration_ms": 27900,
+                      "indexing_done": true,
+                      "polling_timed_out": false,
+                      "polled_at": "2026-10-12T17:57:19.420Z"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-2",
+                      "document_id": "19e9e5a85be5b747",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Opencode iOS app available for testing 🚀",
+                      "author": "u/afanasenka",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/opencode/comments/1x118eb/opencode_ios_app_available_for_testing/",
+                      "language": "en",
+                      "processed_date": "2026-10-10 12:01",
+                      "service_id": "reddit",
+                      "markdown_chars": 779,
+                      "relevance": 1,
+                      "practicality": 1,
+                      "technical_depth": 0,
+                      "reproducibility": 0,
+                      "originality": 0,
+                      "tags": [
+                        "iOS",
+                        "Opencode"
+                      ],
+                      "summary_ru": "Статья представляет собой анонс доступности бета-версии мобильного приложения Opencode для iOS через TestFlight. В тексте нет технических деталей, кода или инструкций по настройке, только ссылка на регистрацию и комментарии пользователей о статусе доступности.",
+                      "has_code": false,
+                      "programm_language": [],
+                      "has_discussion": true,
+                      "score": 2,
+                      "status": "skipped_low_score",
+                      "action_taken": "skipped",
+                      "error_details": null,
+                      "accepted": false
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-3",
+                      "document_id": "57468fc327a22e18",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Blockbench MCP: 82 tools that let Claude model, texture, animate and export...",
+                      "author": "u/RenasDev",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/mcp/comments/1x1wl8l/blockbench_mcp_82_tools_that_let_claude_model/",
+                      "language": "en",
+                      "processed_date": "2026-10-10 12:01",
+                      "service_id": "reddit",
+                      "markdown_chars": 3284,
+                      "relevance": 2,
+                      "practicality": 2,
+                      "technical_depth": 2,
+                      "reproducibility": 2,
+                      "originality": 2,
+                      "tags": [
+                        "MCP",
+                        "AI-Agents",
+                        "3D-Modeling",
+                        "Blockbench",
+                        "Claude",
+                        "Self-Correction"
+                      ],
+                      "summary_ru": "Статья описывает открытый MCP-сервер для интеграции с Blockbench, позволяющий AI-моделям (Claude) создавать, текстурировать и анимировать 3D-модели. Автор детально разбирает архитектуру проверки анимаций: использование как визуальных (рендеринг кадров), так и числовых методов (проверка коллизий, ключевые кадры) для автоматического исправления ошибок. В комментариях обсуждается оптимизация контекста за счет группировки редко используемых инструментов.",
+                      "has_code": true,
+                      "programm_language": [
+                        "python"
+                      ],
+                      "has_discussion": true,
+                      "score": 10,
+                      "status": "successfully_processed",
+                      "action_taken": "original_saved",
+                      "error_details": null,
+                      "accepted": true,
+                      "translation_status": "translation_failed",
+                      "ru_path": null,
+                      "chars_translated": 0,
+                      "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                      "index_request_status": "queued",
+                      "job_id": 176,
+                      "has_job": true,
+                      "index_error": null,
+                      "poll_deadline": 1791829652505,
+                      "job_status": "completed",
+                      "index_result": {
+                        "status": "indexed",
+                        "versions": {
+                          "ru": {
+                            "chunks": 6,
+                            "status": "indexed",
+                            "tokens": 1578,
+                            "article_id": 126,
+                            "content_hash": "fe509294350174357d0e01e3b5e6a9ddc8f030ea7528752ed444e5e05889a3f7"
+                          },
+                          "original": {
+                            "chunks": 0,
+                            "status": "skipped",
+                            "tokens": 0,
+                            "content_hash": "aca97f9abfd495ec46424155ee92b3e1ee69cfac900c556f5782e75b7ed6be14"
+                          }
+                        },
+                        "warnings": [],
+                        "document_id": "57468fc327a22e18",
+                        "duration_ms": 5375
+                      },
+                      "index_duration_ms": 5439,
+                      "indexing_done": true,
+                      "polling_timed_out": false,
+                      "polled_at": "2026-10-12T17:57:38.595Z"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-4",
+                      "document_id": "7bcb50b4ed3bbed2",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Qwen3.8 27b with 200K ctx + MTP on 12GB Ampere Cards",
+                      "author": "u/Brief-Tap-6616",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/Qwen_AI/comments/1x1y22f/qwen38_27b_with_200k_ctx_mtp_on_12gb_ampere_cards/",
+                      "language": "en",
+                      "processed_date": "2026-10-10 12:01",
+                      "service_id": "reddit",
+                      "markdown_chars": 11545,
+                      "relevance": 2,
+                      "practicality": 2,
+                      "technical_depth": 2,
+                      "reproducibility": 2,
+                      "originality": 2,
+                      "tags": [
+                        "RAG",
+                        "локальные-LLM",
+                        "MCP",
+                        "n8n",
+                        "AI-агенты",
+                        "квантование"
+                      ],
+                      "summary_ru": "Статья представляет собой технический отчет о модификации локальной LLM Qwen3.8 27B для работы на видеокартах с 12 ГБ памяти (Ampere). Автор описывает использование квантования 2.3bpw, оптимизации KV-cache (KVaRN) и внедрения MTP (Model Token Prediction) для ускорения генерации. В комментариях приведены полные команды терминала для компиляции llama-server и запуска сервера с конкретными параметрами.",
+                      "has_code": true,
+                      "programm_language": [
+                        "bash",
+                        "c++"
+                      ],
+                      "has_discussion": true,
+                      "score": 10,
+                      "status": "successfully_processed",
+                      "action_taken": "original_saved",
+                      "error_details": null,
+                      "accepted": true,
+                      "translation_status": "translation_failed",
+                      "ru_path": null,
+                      "chars_translated": 0,
+                      "translation_error": "{\"error\":{\"message\":\"Input validation error: 'translation_markdown' is a required property\"}}",
+                      "index_request_status": "queued",
+                      "job_id": 178,
+                      "has_job": true,
+                      "index_error": null,
+                      "poll_deadline": 1791829962472,
+                      "job_status": "completed",
+                      "index_result": {
+                        "status": "skipped",
+                        "versions": {
+                          "ru": {
+                            "chunks": 0,
+                            "status": "skipped",
+                            "tokens": 0,
+                            "content_hash": "dfd86525b823ccd87294fa3ac8d2c47fecdbc5221e6da72becc49262b96d4ff3"
+                          },
+                          "original": {
+                            "chunks": 0,
+                            "status": "skipped",
+                            "tokens": 0,
+                            "content_hash": "ca5bba07bd7a866b0d4781b13c1598ff3209462fe08dcc62e057e1365077a6d0"
+                          }
+                        },
+                        "warnings": [],
+                        "document_id": "7bcb50b4ed3bbed2",
+                        "duration_ms": 77
+                      },
+                      "index_duration_ms": 124,
+                      "indexing_done": true,
+                      "polling_timed_out": false,
+                      "polled_at": "2026-10-12T18:02:45.514Z"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-0",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "No more RTX 5090",
+                      "author": "u/Hot_Arachnid3547",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2hs1e/no_more_rtx_5090/",
+                      "processed_date": "2026-10-10 12:01",
+                      "language": "en",
+                      "summary": "Nvidia reportedly halts GeForce RTX 5090 production in favor of AI data center and professional GPUs — impending supply drought expected to drive up prices, RTX 5080 24GB rumored as new gaming flags"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-1",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Benchmarked some Strata Qwen3.8-flash-next quants",
+                      "author": "u/Orys_Blackfire",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/LocalLLM/comments/1x1pvkt/benchmarked_some_strata_qwen38flashnext_quants/",
+                      "processed_date": "2026-10-10 12:01",
+                      "language": "en",
+                      "summary": "This is a follow up post for my previous post about benchmarking Strata Qwen3.8 flash next quants"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-2",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Opencode iOS app available for testing 🚀",
+                      "author": "u/afanasenka",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/opencode/comments/1x118eb/opencode_ios_app_available_for_testing/",
+                      "processed_date": "2026-10-10 12:01",
+                      "language": "en",
+                      "summary": "Opencode iOS app available for testing via TestFlight"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-3",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Blockbench MCP: 82 tools that let Claude model, texture, animate and export...",
+                      "author": "u/RenasDev",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/mcp/comments/1x1wl8l/blockbench_mcp_82_tools_that_let_claude_model/",
+                      "processed_date": "2026-10-10 12:01",
+                      "language": "en",
+                      "summary": "MCP server + Blockbench plugin that gives Claude full control of Blockbench for texture, animation and export"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  },
+                  {
+                    "json": {
+                      "article_id": "1a127311b9783e3b-4",
+                      "email_id": "1a127311b9783e3b",
+                      "title": "Qwen3.8 27b with 200K ctx + MTP on 12GB Ampere Cards",
+                      "author": "u/Brief-Tap-6616",
+                      "source": "reddit",
+                      "original_url": "https://www.reddit.com/r/Qwen_AI/comments/1x1y22f/qwen38_27b_with_200k_ctx_mtp_on_12gb_ampere_cards/",
+                      "processed_date": "2026-10-10 12:01",
+                      "language": "en",
+                      "summary": "Hello all! Thank you to everyone that contributed their feedback and notes about running Qwen3.8 27b with 200K context using MTP on 12GB Ampere cards"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "startTime": 1791828166318,
+            "executionIndex": 5,
+            "source": [
+              {
+                "previousNode": "Loop Over Items",
+                "previousNodeOutput": 1,
+                "previousNodeRun": 1
+              }
+            ],
+            "hints": [],
+            "executionTime": 65702,
+            "metadata": {
+              "subExecution": {
+                "executionId": "1565",
+                "workflowId": "xIgVHwzm89TyQEzV"
+              },
+              "subExecutionsCount": 1
+            },
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [
+                  {
+                    "json": {
+                      "article_id": "1a125c616a0cc7d1-0",
+                      "document_id": "7ecce63ae1deeb53",
+                      "email_id": "1a125c616a0cc7d1",
+                      "title": "AI Decision Makers powered by Local Ollama",
+                      "author": "Rajesh Mani Kumar G",
+                      "source": "medium",
+                      "original_url": "https://medium.com/p/8e931711fab5",
+                      "language": "en",
+                      "processed_date": "2026-10-10 12:25",
+                      "service_id": "medium",
+                      "markdown_chars": 5482,
+                      "relevance": 2,
+                      "practicality": 2,
+                      "technical_depth": 2,
+                      "reproducibility": 2,
+                      "originality": 2,
+                      "tags": [
+                        "AI-Decision-Makers",
+                        "Local-LLM",
+                        "Ollama",
+                        "Clef-Flash",
+                        "Tev1",
+                        "Laya"
+                      ],
+                      "summary_ru": "Статья описывает использование специализированных моделей AI (System One) для принятия быстрых структурированных решений вместо генерации текста. Автор демонстрирует настройку локального окружения через Ollama и предоставляет полный рабочий код на Python с использованием библиотеки typesafe-sdk для интеграции с моделями Clef-Flash, Tev1, Laya и Nimble. Включены примеры запуска, вывода результатов и анализа метрик использования токенов.",
+                      "has_code": true,
+                      "programm_language": [
+                        "python"
+                      ],
+                      "has_discussion": false,
+                      "score": 10,
+                      "status": "successfully_processed",
+                      "action_taken": "original_saved",
+                      "error_details": null,
+                      "accepted": true,
+                      "translation_status": "translation_failed",
+                      "ru_path": null,
+                      "chars_translated": 0,
+                      "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                      "index_request_status": "queued",
+                      "job_id": 180,
+                      "has_job": true,
+                      "index_error": null,
+                      "poll_deadline": 1791830025782,
+                      "job_status": "completed",
+                      "index_result": {
+                        "status": "indexed",
+                        "versions": {
+                          "ru": {
+                            "chunks": 8,
+                            "status": "indexed",
+                            "tokens": 2222,
+                            "article_id": 150,
+                            "content_hash": "6e6411bb1ac66d9ffe434c5478bdabe7dee6d4c9c4206abd23c28e189247c796"
+                          },
+                          "original": {
+                            "chunks": 0,
+                            "status": "skipped",
+                            "tokens": 0,
+                            "content_hash": "6976a815480d851d651107a6729bd4ee2c9c738aa76a5b3b4ed3139112562021"
+                          }
+                        },
+                        "warnings": [],
+                        "document_id": "7ecce63ae1deeb53",
+                        "duration_ms": 5656
+                      },
+                      "index_duration_ms": 5723,
+                      "indexing_done": true,
+                      "polling_timed_out": false,
+                      "polled_at": "2026-10-12T18:03:51.868Z"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "json": {
+                      "article_id": "1a125c616a0cc7d1-0",
+                      "email_id": "1a125c616a0cc7d1",
+                      "title": "AI Decision Makers powered by Local Ollama",
+                      "author": "Rajesh Mani Kumar G",
+                      "source": "medium",
+                      "original_url": "https://medium.com/p/8e931711fab5",
+                      "processed_date": "2026-10-10 12:25",
+                      "language": "en",
+                      "summary": "A System One model is a class of AI designed to make fast, structured decisions rather than generate open-ended text. It receives a defined state and a set of questions expressed in code, then returns schema-valid answers from a fixed set of possible options, scores, or probabilities, and stops after responding."
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "startTime": 1791828232024,
+            "executionIndex": 7,
+            "source": [
+              {
+                "previousNode": "Loop Over Items",
+                "previousNodeOutput": 1,
+                "previousNodeRun": 2
+              }
+            ],
+            "hints": [],
+            "executionTime": 104492,
+            "metadata": {
+              "subExecution": {
+                "executionId": "1566",
+                "workflowId": "xIgVHwzm89TyQEzV"
+              },
+              "subExecutionsCount": 1
+            },
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                [
+                  {
+                    "json": {
+                      "article_id": "1a1245c72b3ddac2-0",
+                      "document_id": "e1e0124afa7f3be3",
+                      "email_id": "1a1245c72b3ddac2",
+                      "title": "Introducing stablecoins",
+                      "author": "Tituslhy",
+                      "source": "medium",
+                      "original_url": "https://medium.com/p/2b3e63e6c5f1",
+                      "language": "en",
+                      "processed_date": "2026-10-10 05:50",
+                      "service_id": "medium",
+                      "markdown_chars": 25238,
+                      "relevance": 1,
+                      "practicality": 1,
+                      "technical_depth": 2,
+                      "reproducibility": 2,
+                      "originality": 1,
+                      "tags": [
+                        "stablecoins",
+                        "blockchain",
+                        "arbitrage",
+                        "algorithmic-stablecoins",
+                        "Terra-LUNA",
+                        "Python"
+                      ],
+                      "summary_ru": "Статья объясняет концепцию стейблкоинов, анализируя механизмы поддержания курса (fiat-backed и algorithmic) на примере краха Terra/LUNA. Автор приводит подробный пример реализации собственного стейблкоина TitusCoin на Python, демонстрируя классы для управления балансами, мinting, burning и резервами, а также показывает, как оффчейн потери резервов влияют на реальную стоимость токена.",
+                      "has_code": true,
+                      "programm_language": [
+                        "python"
+                      ],
+                      "has_discussion": false,
+                      "score": 7,
+                      "status": "successfully_processed",
+                      "action_taken": "original_saved",
+                      "error_details": null,
+                      "accepted": true,
+                      "translation_status": "translation_failed",
+                      "ru_path": null,
+                      "chars_translated": 0,
+                      "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                      "index_request_status": "queued",
+                      "job_id": 182,
+                      "has_job": true,
+                      "index_error": null,
+                      "poll_deadline": 1791830108877,
+                      "job_status": "completed",
+                      "index_result": {
+                        "status": "indexed",
+                        "versions": {
+                          "ru": {
+                            "chunks": 43,
+                            "status": "indexed",
+                            "tokens": 10033,
+                            "article_id": 152,
+                            "content_hash": "4cc54d8296449d22df746000442d1cb8e27335e8abf586448d7e65cbe4667c3b"
+                          },
+                          "original": {
+                            "chunks": 0,
+                            "status": "skipped",
+                            "tokens": 0,
+                            "content_hash": "c16a7159ab40d5db17159d052bfb9a5a13d534f379ee471d26d13fcf10667b51"
+                          }
+                        },
+                        "warnings": [],
+                        "document_id": "e1e0124afa7f3be3",
+                        "duration_ms": 26530
+                      },
+                      "index_duration_ms": 26598,
+                      "indexing_done": true,
+                      "polling_timed_out": false,
+                      "polled_at": "2026-10-12T18:05:36.344Z"
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ],
+                [
+                  {
+                    "json": {
+                      "article_id": "1a1245c72b3ddac2-0",
+                      "email_id": "1a1245c72b3ddac2",
+                      "title": "Introducing stablecoins",
+                      "author": "Tituslhy",
+                      "source": "medium",
+                      "original_url": "https://medium.com/p/2b3e63e6c5f1",
+                      "processed_date": "2026-10-10 05:50",
+                      "language": "en",
+                      "summary": "A dollar you have to take someone's word for. Cryptocurrency has a volatility problem. The entire construct of cryptocurrency is trust-based through the use of blockchain. Unlike fiat currencies like USD, cryptocurrencies are unregulated, but can be exchanged for fiat currencies."
+                    },
+                    "pairedItem": {
+                      "item": 0
+                    }
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "startTime": 1791828336520,
+            "executionIndex": 9,
+            "source": [
+              {
+                "previousNode": "Loop Over Items",
+                "previousNodeOutput": 1,
+                "previousNodeRun": 3
+              }
+            ],
+            "hints": [],
+            "executionTime": 4690,
+            "metadata": {
+              "subExecution": {
+                "executionId": "1567",
+                "workflowId": "xIgVHwzm89TyQEzV"
+              },
+              "subExecutionsCount": 1
+            },
+            "executionStatus": "success",
+            "data": {
+              "main": [
+                []
+              ]
+            }
+          }
+        ]
+      },
+      "pinData": {},
+      "lastNodeExecuted": "Process Email (Medium Agent)"
+    },
+    "executionData": {
+      "contextData": {
+        "node:Loop Over Items": {
+          "currentRunIndex": 3,
+          "maxRunIndex": 15,
+          "sourceData": {
+            "previousNode": "Get All Emails 2025-2026",
+            "previousNodeOutput": 0,
+            "previousNodeRun": 0
+          },
+          "items": [
+            {
+              "json": {
+                "id": "1a1243d51d30ac58",
+                "threadId": "1a1243d51d30ac58",
+                "snippet": "Вид с высоты или Коллекционная банка? ChatGPT Взгляните на свои фото по-новому Выберите идею ниже и посмотрите, что можно создать. Вид с высоты Попробуйте Коллекционная банка Попробуйте Фотобудка",
+                "payload": {
+                  "mimeType": "text/html"
+                },
+                "sizeEstimate": 76255,
+                "historyId": "630318",
+                "internalDate": "1791609359000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "From": "ChatGPT <noreply@email.openai.com>",
+                "Subject": "Попробуйте новые стили изображений (4)",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 4
+              }
+            },
+            {
+              "json": {
+                "id": "1a1242f6dd592468",
+                "threadId": "1a1242f6dd592468",
+                "snippet": "Контейнер n8n в Container Manager неожиданно завершил работу. Для получения дополнительных сведений выберите n8n на странице Контейнер, нажмите кнопку Сведения и перейдите на вкладку Журнал. Из",
+                "payload": {
+                  "mimeType": "text/html"
+                },
+                "sizeEstimate": 1127,
+                "historyId": "628121",
+                "internalDate": "1791608450000",
+                "labels": [
+                  {
+                    "id": "SENT",
+                    "name": "SENT"
+                  }
+                ],
+                "From": "Synology220Plus - Synology NAS <chamlay71@gmail.com>",
+                "To": "<rev1_71@mail.ru>",
+                "Subject": "[192.168.1.75] Контейнер n8n в Container Manager неожиданно завершил работу"
+              },
+              "pairedItem": {
+                "item": 5
+              }
+            },
+            {
+              "json": {
+                "id": "1a12400e6607719a",
+                "threadId": "1a12400e6607719a",
+                "snippet": "Eugene Stories for Eugene @chamlay71·Member Medium daily digest Today's highlights Rost Glukhov Rost GlukhovinPractical LLM Systems 12 Self-Hosted Deep Research Systems Compared 12 Self-Hosted Deep",
+                "payload": {
+                  "mimeType": "multipart/alternative"
+                },
+                "sizeEstimate": 94097,
+                "historyId": "627751",
+                "internalDate": "1791605400000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "From": "Medium Daily Digest <noreply@medium.com>",
+                "Subject": "12 Self-Hosted Deep Research Systems Compared | Rost Glukhov in Practical LLM Systems",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 6
+              }
+            },
+            {
+              "json": {
+                "id": "1a1236edb84fd889",
+                "threadId": "1a1236edb84fd889",
+                "snippet": "Jev, TypeSafe AI's decision model introduced in September 2026, has attracted considerable developer interest. What Exactly Is Jev, and Why Is It Suddenly Everywhere? Florian June Florian June in",
+                "payload": {
+                  "mimeType": "multipart/alternative"
+                },
+                "sizeEstimate": 21795,
+                "historyId": "630317",
+                "internalDate": "1791595800000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "From": "Florian June <subscriptions@medium.com>",
+                "Subject": "What Exactly Is Jev, and Why Is It Suddenly Everywhere?",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 7
+              }
+            },
+            {
+              "json": {
+                "id": "1a12211defba2975",
+                "threadId": "1a12211defba2975",
+                "snippet": "r/LocalLLaMA: **(Don't judge by the screenshot, the cache is cold. It hits 24+ tok/s with a warm cache!)** About two months ago, I made a post here asking whether predicting which MoE experts would",
+                "payload": {
+                  "mimeType": "text/html"
+                },
+                "sizeEstimate": 86570,
+                "historyId": "630235",
+                "internalDate": "1791572958000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_PROMOTIONS",
+                    "name": "CATEGORY_PROMOTIONS"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "From": "Reddit <noreply@redditmail.com>",
+                "To": "chamlay71@gmail.com",
+                "Subject": "\"Qwen 3.8 Flash Next-GSQ-RCO-IQ2_XS at ~21 tok/s on just an RTX 3060 12GB +...\""
+              },
+              "pairedItem": {
+                "item": 8
+              }
+            },
+            {
+              "json": {
+                "id": "1a12158e65da0e7d",
+                "threadId": "1a12158e65da0e7d",
+                "snippet": "Hi there, This week: a closer look at Kilo Desktop, Anaconda's approach to AI development, and a guide to Kilo Pass. Join us on Discord to compare notes, or tell us what you've been building.",
+                "payload": {
+                  "mimeType": "multipart/alternative"
+                },
+                "sizeEstimate": 21588,
+                "historyId": "627749",
+                "internalDate": "1791560836000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "Subject": "Kilo Weekly: Kilo Desktop + the AI Dev Factory",
+                "From": "Kilo Team <hi@news.kilocode.ai>",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 9
+              }
+            },
+            {
+              "json": {
+                "id": "1a120eba4f6bc137",
+                "threadId": "1a120eba4f6bc137",
+                "snippet": "Превратите селфи в профессиональный портрет студийного качества с помощью ChatGPT Images. ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌",
+                "payload": {
+                  "mimeType": "text/html"
+                },
+                "sizeEstimate": 68918,
+                "historyId": "630316",
+                "internalDate": "1791553675000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "From": "ChatGPT <noreply@email.openai.com>",
+                "Subject": "Профессиональный портрет из простого селфи",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 10
+              }
+            },
+            {
+              "json": {
+                "id": "1a1208ee0aa2ede6",
+                "threadId": "1a1208ee0aa2ede6",
+                "snippet": "Be a better communicator with LLM programming ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏ ͏",
+                "payload": {
+                  "mimeType": "multipart/alternative"
+                },
+                "sizeEstimate": 111478,
+                "historyId": "627747",
+                "internalDate": "1791547315000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "Subject": "Why Claude Code Time Estimates Are Poor",
+                "From": "Eivind Kjosbakken <eivindkjosbakken@substack.com>",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 11
+              }
+            },
+            {
+              "json": {
+                "id": "1a1207b1b6a3fc5e",
+                "threadId": "1a1207b1b6a3fc5e",
+                "snippet": "OpenAI, Anthropic, and AWS price the agent loop at zero. Lock-in lives in tool schemas, sandbox format, and MCP wiring instead. Managed Agent Runtime Lock-In: Tool Schemas, Sandbox Format, and the Real",
+                "payload": {
+                  "mimeType": "multipart/alternative"
+                },
+                "sizeEstimate": 21657,
+                "historyId": "627745",
+                "internalDate": "1791546300000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "From": "Jaroslaw Wasowski <subscriptions@medium.com>",
+                "Subject": "Managed Agent Runtime Lock-In: Tool Schemas, Sandbox Format, and the Real Eval Bill",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 12
+              }
+            },
+            {
+              "json": {
+                "id": "1a1204e9b1b7c063",
+                "threadId": "1a1204e9b1b7c063",
+                "snippet": "r/LocalLLaMA: it consistently could not pass this. had to follow up couple of times and by the time it has already exhausted 120k context limit. \"build me a 3d simulation of the solar system in a",
+                "payload": {
+                  "mimeType": "text/html"
+                },
+                "sizeEstimate": 82579,
+                "historyId": "627743",
+                "internalDate": "1791543384000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  },
+                  {
+                    "id": "UNREAD",
+                    "name": "UNREAD"
+                  }
+                ],
+                "From": "Reddit <noreply@redditmail.com>",
+                "To": "chamlay71@gmail.com",
+                "Subject": "\"Qwen3.8: Flash Next iq3 xxs is dumber than 27B iq3 xxs?\""
+              },
+              "pairedItem": {
+                "item": 13
+              }
+            },
+            {
+              "json": {
+                "id": "1a11eda8af52a767",
+                "threadId": "1a11eda8af52a767",
+                "snippet": "Eugene Stories for Eugene @chamlay71·Member Medium daily digest Today's highlights Anubhav AnubhavinData Science Collective I Replaced My $200/Month Claude Code with These Local Models. I Replaced",
+                "payload": {
+                  "mimeType": "multipart/alternative"
+                },
+                "sizeEstimate": 94794,
+                "historyId": "626746",
+                "internalDate": "1791519000000",
+                "labels": [
+                  {
+                    "id": "INBOX",
+                    "name": "INBOX"
+                  },
+                  {
+                    "id": "CATEGORY_UPDATES",
+                    "name": "CATEGORY_UPDATES"
+                  }
+                ],
+                "From": "Medium Daily Digest <noreply@medium.com>",
+                "Subject": "I Replaced My $200/Month Claude Code with These Local Models. | Anubhav in Data Science Collective",
+                "To": "chamlay71@gmail.com"
+              },
+              "pairedItem": {
+                "item": 14
+              }
+            }
+          ],
+          "processedItems": [
+            {
+              "json": {
+                "article_id": "1a127311b9783e3b-0",
+                "document_id": "a178ca6a5468a102",
+                "email_id": "1a127311b9783e3b",
+                "title": "No more RTX 5090",
+                "author": "u/Hot_Arachnid3547",
+                "source": "reddit",
+                "original_url": "https://www.reddit.com/r/LocalLLaMA/comments/1x2hs1e/no_more_rtx_5090/",
+                "language": "en",
+                "processed_date": "2026-10-10 12:01",
+                "service_id": "reddit",
+                "markdown_chars": 27388,
+                "relevance": 1,
+                "practicality": 0,
+                "technical_depth": 0,
+                "reproducibility": 0,
+                "originality": 0,
+                "tags": [
+                  "Nvidia",
+                  "RTX 5090",
+                  "AI-hardware",
+                  "local-LLM"
+                ],
+                "summary_ru": "Статья представляет собой новостной пост с комментариями о прекращении производства видеокарты RTX 5090 в пользу AI-серверов. Обсуждение фокусируется на рыночных ценах, дефиците, сравнении с предыдущими поколениями и философских размышлениях о бизнес-модели Nvidia. В тексте нет пошаговых инструкций, кода, конфигураций или технических деталей настройки локальных LLM.",
+                "has_code": false,
+                "programm_language": [],
+                "has_discussion": true,
+                "score": 1,
+                "status": "skipped_low_score",
+                "action_taken": "skipped",
+                "error_details": null,
+                "accepted": false
+              },
+              "pairedItem": {
+                "sourceOverwrite": {
+                  "previousNode": "Process Email (Medium Agent)",
+                  "previousNodeOutput": 0,
+                  "previousNodeRun": 0
+                },
+                "item": 0
+              }
+            },
+            {
+              "json": {
+                "article_id": "1a127311b9783e3b-1",
+                "document_id": "0a554da05d481c90",
+                "email_id": "1a127311b9783e3b",
+                "title": "Benchmarked some Strata Qwen3.8-flash-next quants",
+                "author": "u/Orys_Blackfire",
+                "source": "reddit",
+                "original_url": "https://www.reddit.com/r/LocalLLM/comments/1x1pvkt/benchmarked_some_strata_qwen38flashnext_quants/",
+                "language": "en",
+                "processed_date": "2026-10-10 12:01",
+                "service_id": "reddit",
+                "markdown_chars": 18828,
+                "relevance": 2,
+                "practicality": 2,
+                "technical_depth": 1,
+                "reproducibility": 1,
+                "originality": 2,
+                "tags": [
+                  "RAG",
+                  "локальные-LLM",
+                  "MCP",
+                  "n8n",
+                  "AI-агенты",
+                  "квантование"
+                ],
+                "summary_ru": "Автор провел бенчмарк квантованных версий модели Qwen3.8-Flash-Next (IQ3_XXS, IQ3_S, Coder, Swift, Tiel Coder) на своем локальном стенде (7900XT 20GB VRAM). Использовал набор задач из Polyglot Aider и собственные агентские сценарии через harness pi agent. В комментариях обсуждаются детали квантования, скорости декодирования на разных GPU (3090, 4090), влияние контекстного окна и сравнение с другими форматами (EXL3, Q4_K_XL).",
+                "has_code": false,
+                "programm_language": [],
+                "has_discussion": true,
+                "score": 8,
+                "status": "successfully_processed",
+                "action_taken": "original_saved",
+                "error_details": null,
+                "accepted": true,
+                "translation_status": "translation_failed",
+                "ru_path": null,
+                "chars_translated": 0,
+                "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                "index_request_status": "queued",
+                "job_id": 174,
+                "has_job": true,
+                "index_error": null,
+                "poll_deadline": 1791829608952,
+                "job_status": "completed",
+                "index_result": {
+                  "status": "indexed",
+                  "versions": {
+                    "ru": {
+                      "chunks": 27,
+                      "status": "indexed",
+                      "tokens": 8741,
+                      "article_id": 124,
+                      "content_hash": "688370cef7ce99c27fdac17cbf91a1ee418bcb4bd2b534570c8539e85a58c708"
+                    },
+                    "original": {
+                      "chunks": 0,
+                      "status": "skipped",
+                      "tokens": 0,
+                      "content_hash": "63d5f5244b66bb64f16598f6503ca81a992a3b56b5393cc2f801c3bff8816ec7"
+                    }
+                  },
+                  "warnings": [],
+                  "document_id": "0a554da05d481c90",
+                  "duration_ms": 27844
+                },
+                "index_duration_ms": 27900,
+                "indexing_done": true,
+                "polling_timed_out": false,
+                "polled_at": "2026-10-12T17:57:19.420Z"
+              },
+              "pairedItem": {
+                "sourceOverwrite": {
+                  "previousNode": "Process Email (Medium Agent)",
+                  "previousNodeOutput": 0,
+                  "previousNodeRun": 0
+                },
+                "item": 1
+              }
+            },
+            {
+              "json": {
+                "article_id": "1a127311b9783e3b-2",
+                "document_id": "19e9e5a85be5b747",
+                "email_id": "1a127311b9783e3b",
+                "title": "Opencode iOS app available for testing 🚀",
+                "author": "u/afanasenka",
+                "source": "reddit",
+                "original_url": "https://www.reddit.com/r/opencode/comments/1x118eb/opencode_ios_app_available_for_testing/",
+                "language": "en",
+                "processed_date": "2026-10-10 12:01",
+                "service_id": "reddit",
+                "markdown_chars": 779,
+                "relevance": 1,
+                "practicality": 1,
+                "technical_depth": 0,
+                "reproducibility": 0,
+                "originality": 0,
+                "tags": [
+                  "iOS",
+                  "Opencode"
+                ],
+                "summary_ru": "Статья представляет собой анонс доступности бета-версии мобильного приложения Opencode для iOS через TestFlight. В тексте нет технических деталей, кода или инструкций по настройке, только ссылка на регистрацию и комментарии пользователей о статусе доступности.",
+                "has_code": false,
+                "programm_language": [],
+                "has_discussion": true,
+                "score": 2,
+                "status": "skipped_low_score",
+                "action_taken": "skipped",
+                "error_details": null,
+                "accepted": false
+              },
+              "pairedItem": {
+                "sourceOverwrite": {
+                  "previousNode": "Process Email (Medium Agent)",
+                  "previousNodeOutput": 0,
+                  "previousNodeRun": 0
+                },
+                "item": 2
+              }
+            },
+            {
+              "json": {
+                "article_id": "1a127311b9783e3b-3",
+                "document_id": "57468fc327a22e18",
+                "email_id": "1a127311b9783e3b",
+                "title": "Blockbench MCP: 82 tools that let Claude model, texture, animate and export...",
+                "author": "u/RenasDev",
+                "source": "reddit",
+                "original_url": "https://www.reddit.com/r/mcp/comments/1x1wl8l/blockbench_mcp_82_tools_that_let_claude_model/",
+                "language": "en",
+                "processed_date": "2026-10-10 12:01",
+                "service_id": "reddit",
+                "markdown_chars": 3284,
+                "relevance": 2,
+                "practicality": 2,
+                "technical_depth": 2,
+                "reproducibility": 2,
+                "originality": 2,
+                "tags": [
+                  "MCP",
+                  "AI-Agents",
+                  "3D-Modeling",
+                  "Blockbench",
+                  "Claude",
+                  "Self-Correction"
+                ],
+                "summary_ru": "Статья описывает открытый MCP-сервер для интеграции с Blockbench, позволяющий AI-моделям (Claude) создавать, текстурировать и анимировать 3D-модели. Автор детально разбирает архитектуру проверки анимаций: использование как визуальных (рендеринг кадров), так и числовых методов (проверка коллизий, ключевые кадры) для автоматического исправления ошибок. В комментариях обсуждается оптимизация контекста за счет группировки редко используемых инструментов.",
+                "has_code": true,
+                "programm_language": [
+                  "python"
+                ],
+                "has_discussion": true,
+                "score": 10,
+                "status": "successfully_processed",
+                "action_taken": "original_saved",
+                "error_details": null,
+                "accepted": true,
+                "translation_status": "translation_failed",
+                "ru_path": null,
+                "chars_translated": 0,
+                "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                "index_request_status": "queued",
+                "job_id": 176,
+                "has_job": true,
+                "index_error": null,
+                "poll_deadline": 1791829652505,
+                "job_status": "completed",
+                "index_result": {
+                  "status": "indexed",
+                  "versions": {
+                    "ru": {
+                      "chunks": 6,
+                      "status": "indexed",
+                      "tokens": 1578,
+                      "article_id": 126,
+                      "content_hash": "fe509294350174357d0e01e3b5e6a9ddc8f030ea7528752ed444e5e05889a3f7"
+                    },
+                    "original": {
+                      "chunks": 0,
+                      "status": "skipped",
+                      "tokens": 0,
+                      "content_hash": "aca97f9abfd495ec46424155ee92b3e1ee69cfac900c556f5782e75b7ed6be14"
+                    }
+                  },
+                  "warnings": [],
+                  "document_id": "57468fc327a22e18",
+                  "duration_ms": 5375
+                },
+                "index_duration_ms": 5439,
+                "indexing_done": true,
+                "polling_timed_out": false,
+                "polled_at": "2026-10-12T17:57:38.595Z"
+              },
+              "pairedItem": {
+                "sourceOverwrite": {
+                  "previousNode": "Process Email (Medium Agent)",
+                  "previousNodeOutput": 0,
+                  "previousNodeRun": 0
+                },
+                "item": 3
+              }
+            },
+            {
+              "json": {
+                "article_id": "1a127311b9783e3b-4",
+                "document_id": "7bcb50b4ed3bbed2",
+                "email_id": "1a127311b9783e3b",
+                "title": "Qwen3.8 27b with 200K ctx + MTP on 12GB Ampere Cards",
+                "author": "u/Brief-Tap-6616",
+                "source": "reddit",
+                "original_url": "https://www.reddit.com/r/Qwen_AI/comments/1x1y22f/qwen38_27b_with_200k_ctx_mtp_on_12gb_ampere_cards/",
+                "language": "en",
+                "processed_date": "2026-10-10 12:01",
+                "service_id": "reddit",
+                "markdown_chars": 11545,
+                "relevance": 2,
+                "practicality": 2,
+                "technical_depth": 2,
+                "reproducibility": 2,
+                "originality": 2,
+                "tags": [
+                  "RAG",
+                  "локальные-LLM",
+                  "MCP",
+                  "n8n",
+                  "AI-агенты",
+                  "квантование"
+                ],
+                "summary_ru": "Статья представляет собой технический отчет о модификации локальной LLM Qwen3.8 27B для работы на видеокартах с 12 ГБ памяти (Ampere). Автор описывает использование квантования 2.3bpw, оптимизации KV-cache (KVaRN) и внедрения MTP (Model Token Prediction) для ускорения генерации. В комментариях приведены полные команды терминала для компиляции llama-server и запуска сервера с конкретными параметрами.",
+                "has_code": true,
+                "programm_language": [
+                  "bash",
+                  "c++"
+                ],
+                "has_discussion": true,
+                "score": 10,
+                "status": "successfully_processed",
+                "action_taken": "original_saved",
+                "error_details": null,
+                "accepted": true,
+                "translation_status": "translation_failed",
+                "ru_path": null,
+                "chars_translated": 0,
+                "translation_error": "{\"error\":{\"message\":\"Input validation error: 'translation_markdown' is a required property\"}}",
+                "index_request_status": "queued",
+                "job_id": 178,
+                "has_job": true,
+                "index_error": null,
+                "poll_deadline": 1791829962472,
+                "job_status": "completed",
+                "index_result": {
+                  "status": "skipped",
+                  "versions": {
+                    "ru": {
+                      "chunks": 0,
+                      "status": "skipped",
+                      "tokens": 0,
+                      "content_hash": "dfd86525b823ccd87294fa3ac8d2c47fecdbc5221e6da72becc49262b96d4ff3"
+                    },
+                    "original": {
+                      "chunks": 0,
+                      "status": "skipped",
+                      "tokens": 0,
+                      "content_hash": "ca5bba07bd7a866b0d4781b13c1598ff3209462fe08dcc62e057e1365077a6d0"
+                    }
+                  },
+                  "warnings": [],
+                  "document_id": "7bcb50b4ed3bbed2",
+                  "duration_ms": 77
+                },
+                "index_duration_ms": 124,
+                "indexing_done": true,
+                "polling_timed_out": false,
+                "polled_at": "2026-10-12T18:02:45.514Z"
+              },
+              "pairedItem": {
+                "sourceOverwrite": {
+                  "previousNode": "Process Email (Medium Agent)",
+                  "previousNodeOutput": 0,
+                  "previousNodeRun": 0
+                },
+                "item": 4
+              }
+            },
+            {
+              "json": {
+                "article_id": "1a125c616a0cc7d1-0",
+                "document_id": "7ecce63ae1deeb53",
+                "email_id": "1a125c616a0cc7d1",
+                "title": "AI Decision Makers powered by Local Ollama",
+                "author": "Rajesh Mani Kumar G",
+                "source": "medium",
+                "original_url": "https://medium.com/p/8e931711fab5",
+                "language": "en",
+                "processed_date": "2026-10-10 12:25",
+                "service_id": "medium",
+                "markdown_chars": 5482,
+                "relevance": 2,
+                "practicality": 2,
+                "technical_depth": 2,
+                "reproducibility": 2,
+                "originality": 2,
+                "tags": [
+                  "AI-Decision-Makers",
+                  "Local-LLM",
+                  "Ollama",
+                  "Clef-Flash",
+                  "Tev1",
+                  "Laya"
+                ],
+                "summary_ru": "Статья описывает использование специализированных моделей AI (System One) для принятия быстрых структурированных решений вместо генерации текста. Автор демонстрирует настройку локального окружения через Ollama и предоставляет полный рабочий код на Python с использованием библиотеки typesafe-sdk для интеграции с моделями Clef-Flash, Tev1, Laya и Nimble. Включены примеры запуска, вывода результатов и анализа метрик использования токенов.",
+                "has_code": true,
+                "programm_language": [
+                  "python"
+                ],
+                "has_discussion": false,
+                "score": 10,
+                "status": "successfully_processed",
+                "action_taken": "original_saved",
+                "error_details": null,
+                "accepted": true,
+                "translation_status": "translation_failed",
+                "ru_path": null,
+                "chars_translated": 0,
+                "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                "index_request_status": "queued",
+                "job_id": 180,
+                "has_job": true,
+                "index_error": null,
+                "poll_deadline": 1791830025782,
+                "job_status": "completed",
+                "index_result": {
+                  "status": "indexed",
+                  "versions": {
+                    "ru": {
+                      "chunks": 8,
+                      "status": "indexed",
+                      "tokens": 2222,
+                      "article_id": 150,
+                      "content_hash": "6e6411bb1ac66d9ffe434c5478bdabe7dee6d4c9c4206abd23c28e189247c796"
+                    },
+                    "original": {
+                      "chunks": 0,
+                      "status": "skipped",
+                      "tokens": 0,
+                      "content_hash": "6976a815480d851d651107a6729bd4ee2c9c738aa76a5b3b4ed3139112562021"
+                    }
+                  },
+                  "warnings": [],
+                  "document_id": "7ecce63ae1deeb53",
+                  "duration_ms": 5656
+                },
+                "index_duration_ms": 5723,
+                "indexing_done": true,
+                "polling_timed_out": false,
+                "polled_at": "2026-10-12T18:03:51.868Z"
+              },
+              "pairedItem": {
+                "sourceOverwrite": {
+                  "previousNode": "Process Email (Medium Agent)",
+                  "previousNodeOutput": 0,
+                  "previousNodeRun": 1
+                },
+                "item": 0
+              }
+            },
+            {
+              "json": {
+                "article_id": "1a1245c72b3ddac2-0",
+                "document_id": "e1e0124afa7f3be3",
+                "email_id": "1a1245c72b3ddac2",
+                "title": "Introducing stablecoins",
+                "author": "Tituslhy",
+                "source": "medium",
+                "original_url": "https://medium.com/p/2b3e63e6c5f1",
+                "language": "en",
+                "processed_date": "2026-10-10 05:50",
+                "service_id": "medium",
+                "markdown_chars": 25238,
+                "relevance": 1,
+                "practicality": 1,
+                "technical_depth": 2,
+                "reproducibility": 2,
+                "originality": 1,
+                "tags": [
+                  "stablecoins",
+                  "blockchain",
+                  "arbitrage",
+                  "algorithmic-stablecoins",
+                  "Terra-LUNA",
+                  "Python"
+                ],
+                "summary_ru": "Статья объясняет концепцию стейблкоинов, анализируя механизмы поддержания курса (fiat-backed и algorithmic) на примере краха Terra/LUNA. Автор приводит подробный пример реализации собственного стейблкоина TitusCoin на Python, демонстрируя классы для управления балансами, мinting, burning и резервами, а также показывает, как оффчейн потери резервов влияют на реальную стоимость токена.",
+                "has_code": true,
+                "programm_language": [
+                  "python"
+                ],
+                "has_discussion": false,
+                "score": 7,
+                "status": "successfully_processed",
+                "action_taken": "original_saved",
+                "error_details": null,
+                "accepted": true,
+                "translation_status": "translation_failed",
+                "ru_path": null,
+                "chars_translated": 0,
+                "translation_error": "Пустой или невалидный ответ save_knowledge_article_translation",
+                "index_request_status": "queued",
+                "job_id": 182,
+                "has_job": true,
+                "index_error": null,
+                "poll_deadline": 1791830108877,
+                "job_status": "completed",
+                "index_result": {
+                  "status": "indexed",
+                  "versions": {
+                    "ru": {
+                      "chunks": 43,
+                      "status": "indexed",
+                      "tokens": 10033,
+                      "article_id": 152,
+                      "content_hash": "4cc54d8296449d22df746000442d1cb8e27335e8abf586448d7e65cbe4667c3b"
+                    },
+                    "original": {
+                      "chunks": 0,
+                      "status": "skipped",
+                      "tokens": 0,
+                      "content_hash": "c16a7159ab40d5db17159d052bfb9a5a13d534f379ee471d26d13fcf10667b51"
+                    }
+                  },
+                  "warnings": [],
+                  "document_id": "e1e0124afa7f3be3",
+                  "duration_ms": 26530
+                },
+                "index_duration_ms": 26598,
+                "indexing_done": true,
+                "polling_timed_out": false,
+                "polled_at": "2026-10-12T18:05:36.344Z"
+              },
+              "pairedItem": {
+                "sourceOverwrite": {
+                  "previousNode": "Process Email (Medium Agent)",
+                  "previousNodeOutput": 0,
+                  "previousNodeRun": 2
+                },
+                "item": 0
+              }
+            }
+          ],
+          "noItemsLeft": false,
+          "done": false
+        }
+      },
+      "nodeExecutionStack": [],
+      "metadata": {},
+      "waitingExecution": {},
+      "waitingExecutionSource": {},
+      "runtimeData": {
+        "version": 1,
+        "establishedAt": 1791827711551,
+        "source": "manual",
+        "triggerNode": {
+          "name": "When clicking 'Execute Workflow'",
+          "type": "n8n-nodes-base.manualTrigger"
+        },
+        "redaction": {
+          "version": 2,
+          "production": false,
+          "manual": false
+        },
+        "credentials": "U2FsdGVkX1+3CcM4Y/YHv4nN9F2ysV3phadnLWp/w1IRFTaym3kfvgPANTe9aCZ72kGA3boj0LWaHbibNpq/qvbM1yDFUWFy99t0p77vJt7ROu+9/WVHmGAjBHXJscNlthQ9DnWWMkLi+4aPGLOYs+IrVBlDsx5ZOhgP1YfB4pkpMXr//F2U11VmJtfjVy7/5GQhyWyILDJpLpQQr9z8biJmsJK5chwbyrJKwbjGzNrkhDbMcpYRbxq+MIc7VPunRFBoxoZgRH94ky+TiJKbk3VX5gTTNcZK04A/PWjBfjc+y6Cis6eth6fKxokvhtm7lR8wN8wAT1KtHPdeDGHkYL4l3h9zoqv2DXnu4f3bPAcWb+RnNnooLX7Y9v6kePoLra/bjqKctj+h2P1pNU2QV6vNgRo5BoUaiuRfq1j8qkl3NshGGGNKkBdYhxjPuVSeOVRK42qRVryrV4EVGmL5BKxV4Lumz9/ePAmbm4WbHzVtr1rnhgm2ZTC+Mkrxn4C6R8b9McdcVxYwL35lDtGWAA=="
+      }
+    },
+    "resumeToken": "39496a3caa65ae704fa5018e9eeeacce6fae9daaa982d9de8787e7c04910d993"
+  },
+  "customData": {},
+  "workflowData": {
+    "id": "pIzb8xZ2NruJam5Y",
+    "name": "Medium Agent main v2 - Backfill 2025-2026",
+    "nodes": [
+      {
+        "parameters": {
+          "notice": ""
+        },
+        "id": "b1a00001-0001-4000-8000-000000000001",
+        "name": "When clicking 'Execute Workflow'",
+        "type": "n8n-nodes-base.manualTrigger",
+        "typeVersion": 1,
+        "position": [
+          -800,
+          128
+        ]
+      },
+      {
+        "parameters": {
+          "authentication": "oAuth2",
+          "resource": "message",
+          "operation": "getAll",
+          "returnAll": true,
+          "simple": true,
+          "filtersNotice": "",
+          "filters": {
+            "receivedAfter": "2026-10-09T00:00:00",
+            "receivedBefore": "2026-10-11T00:00:00"
+          }
+        },
+        "id": "b1a00002-0002-4000-8000-000000000002",
+        "name": "Get All Emails 2025-2026",
+        "webhookId": "ae507fab-6481-4b53-a920-685007568c8c",
+        "type": "n8n-nodes-base.gmail",
+        "typeVersion": 2.2,
+        "retryOnFail": false,
+        "maxTries": 2,
+        "waitBetweenTries": 5000,
+        "position": [
+          -576,
+          128
+        ],
+        "credentials": {
+          "gmailOAuth2": {
+            "id": "synZZO5fich5aQuc",
+            "name": "Gmail account"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "splitInBatchesNotice": "",
+          "batchSize": 1,
+          "options": {}
+        },
+        "id": "b1a00003-0003-4000-8000-000000000003",
+        "name": "Loop Over Items",
+        "type": "n8n-nodes-base.splitInBatches",
+        "typeVersion": 3,
+        "position": [
+          -352,
+          128
+        ]
+      },
+      {
+        "parameters": {
+          "authentication": "oAuth2",
+          "resource": "message",
+          "operation": "send",
+          "sendTo": "rev1_71@mail.ru",
+          "subject": "=Backfill 2025-2026 завершён: {{ $('Get All Emails 2025-2026').all().length }} писем",
+          "emailType": "text",
+          "message": "=Backfill-обработка почты завершена.\n\nПериод: 2025-01-01 - 2026-12-31 (Gmail-запрос: after:2024/12/31 before:2027/01/01)\nНайдено писем: {{ $('Get All Emails 2025-2026').all().length }}\n\nКаждое письмо обработано под-воркфлоу Medium Agent main v2. Ошибки отдельных писем не прерывают обработку - см. логи выполнения.\n\nExecution: {{ $execution.id }} | {{ $now.toISO() }}",
+          "options": {}
+        },
+        "id": "b1a00005-0005-4000-8000-000000000005",
+        "name": "Send Backfill Summary",
+        "webhookId": "42abc881-4363-4763-9733-554e0bbb246c",
+        "type": "n8n-nodes-base.gmail",
+        "typeVersion": 2.2,
+        "position": [
+          -128,
+          -16
+        ],
+        "credentials": {
+          "gmailOAuth2": {
+            "id": "synZZO5fich5aQuc",
+            "name": "Gmail account"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "content": "## Backfill перед запуском Medium Agent main v2\n\n**Назначение:** разовый прогон всех писем за 2025-2026 годы через основной воркфлоу *Medium Agent main v2* (как под-воркфлоу), чтобы заложить статьи из архивных дайджестов в локальное хранилище и векторную БД **до** промышленной эксплуатации.\n\n**Как работает:**\n1. Gmail Get Many messages собирает все письма за период `after:2024/12/31 before:2027/01/01`\n2. Loop Over Items (batch=1) обрабатывает их строго по одному\n3. Execute Sub-workflow вызывает *Medium Agent main v2* с входом `{id}` — тот же контракт, что у его триггера «When Executed by Another Workflow». Агент сам читает письмо, фильтрует по доменам (medium.com, reddit.com, redditmail.com, linkedin.com, habr.ru + личные адреса), извлекает ссылки и прогоняет статьи по конвейеру\n4. Ошибка одного письма не прерывает прогон (Continue on Fail)\n5. По завершении — сводное письмо на rev1_71@mail.ru\n\n**Важно:**\n- Запуск только вручную (Execute workflow), активировать воркфлоу не нужно\n- Прогон долгий: каждое письмо = отдельный вызов LLM-агента, следите за расходом токенов\n- Повторный запуск обработает письма заново. Чтобы пропустить уже обработанное, добавьте `is:unread` в Gmail-запрос\n- После успешного прогона можно активировать Medium Agent main v2\n\n**ВАЖНО**\nТраффик на:\noauth2.googleapis.com\ngmail.googleapis.com\nwww.googleapis.com\ngoogleapis.com\nнаправлен в Mikrotik мимо VPN",
+          "height": 720,
+          "width": 560,
+          "color": 1
+        },
+        "id": "b1a00006-0006-4000-8000-000000000006",
+        "name": "Sticky Note",
+        "type": "n8n-nodes-base.stickyNote",
+        "typeVersion": 1,
+        "position": [
+          -816,
+          -752
+        ]
+      },
+      {
+        "parameters": {
+          "content": "### Границы периода\n\n- 2025-01-01 → 2026-12-31 через Gmail-синтаксис `after:2024/12/31 before:2027/01/01`\n- Чтобы изменить период — правьте только поле Search (q) в этой ноде",
+          "height": 160,
+          "width": 380,
+          "color": 1
+        },
+        "id": "b1a00007-0007-4000-8000-000000000007",
+        "name": "Sticky Note1",
+        "type": "n8n-nodes-base.stickyNote",
+        "typeVersion": 1,
+        "position": [
+          -240,
+          -192
+        ]
+      },
+      {
+        "parameters": {
+          "operation": "call_workflow",
+          "source": "database",
+          "workflowId": {
+            "__rl": true,
+            "value": "xIgVHwzm89TyQEzV",
+            "mode": "list",
+            "cachedResultUrl": "/workflow/xIgVHwzm89TyQEzV",
+            "cachedResultName": "Medium Agent v3"
+          },
+          "workflowInputs": {
+            "mappingMode": "defineBelow",
+            "value": {
+              "id": "={{ $json.id }}"
+            },
+            "matchingColumns": [],
+            "schema": [
+              {
+                "id": "id",
+                "displayName": "id",
+                "required": false,
+                "defaultMatch": false,
+                "display": true,
+                "canBeUsedToMatch": true,
+                "type": "string"
+              }
+            ],
+            "attemptToConvertTypes": false,
+            "convertFieldsToString": false
+          },
+          "mode": "once",
+          "options": {
+            "waitForSubWorkflow": true
+          }
+        },
+        "id": "b1a00004-0004-4000-8000-000000000004",
+        "name": "Process Email (Medium Agent)",
+        "type": "n8n-nodes-base.executeWorkflow",
+        "typeVersion": 1.2,
+        "position": [
+          -128,
+          176
+        ],
+        "onError": "continueRegularOutput"
+      }
+    ],
+    "connections": {
+      "When clicking 'Execute Workflow'": {
+        "main": [
+          [
+            {
+              "node": "Get All Emails 2025-2026",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Get All Emails 2025-2026": {
+        "main": [
+          [
+            {
+              "node": "Loop Over Items",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Loop Over Items": {
+        "main": [
+          [
+            {
+              "node": "Send Backfill Summary",
+              "type": "main",
+              "index": 0
+            }
+          ],
+          [
+            {
+              "node": "Process Email (Medium Agent)",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Process Email (Medium Agent)": {
+        "main": [
+          [
+            {
+              "node": "Loop Over Items",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "settings": {
+      "executionOrder": "v1",
+      "binaryMode": "separate"
+    },
+    "nodeGroups": []
+  }
+}
